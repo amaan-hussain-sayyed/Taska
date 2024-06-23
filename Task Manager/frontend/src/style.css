@@ -1,0 +1,917 @@
+  html {
+    height: 100px;
+  }
+
+  body {
+    margin: 0;
+    color: #000000;
+    padding: 30;
+    font-family: sans-serif;
+    background-color: #B5C0D0;
+
+  }
+
+
+  /* Outlet */
+   /* .outlet-container {
+
+  }  */
+
+  .img-container {
+    padding: 10px;
+    height: 100vh;
+    background-image: url('Pin by Trứng Ung on ✿ Ⓑⓔⓐⓤⓣⓘⓕⓤⓛ ✿ _ Scenery wallpaper, Anime scenery wallpaper, Anime scenery.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;  
+
+     }
+  
+  /* Footer */
+  .footer {
+     position: fixed;
+    left: 0;
+    bottom: 0;  
+    width: 100%;
+    background-color: #06121f;
+    color: #eef6ff;
+    text-align: center;
+  }
+
+  .footer p {
+    margin-bottom: 0;
+  }
+
+  /* Login Box  */
+  .login-box {
+    width: 420px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    background-color: #f1f4f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-box:hover {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+
+  .login-box h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #3b5998;
+  }
+
+  .login-box label {
+    font-weight: bold;
+    color: #3b5998;
+  }
+
+  .login-box input[type="email"],
+  .login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #cfd5e0;
+    font-weight: bolder;
+  }
+
+  .login-box input[type="email"]:hover,
+  .login-box input[type="password"]:hover {
+    box-shadow: 0 0 10px 0 #272222;
+  }
+
+  .login-box input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .login-box button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid #071534;
+    background-color: #3b5998;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-box button[type="submit"]:hover {
+    background-color: #071b52;
+    box-shadow: 0 0 10px 0 #272222;
+    color: #ffffff;
+  }
+
+  .login-box p {
+    text-align: center;
+    margin-top: 3px;
+    color: #000000;
+    font-size: 14px;
+  }
+
+  .login-box a {
+    color: #3b5998;
+    text-decoration: none;
+  }
+
+  .login-box a:hover {
+    text-decoration: underline;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #2a3f77;
+  }
+
+  .login-box .input-box i {
+    position: relative;
+    bottom: 45px;
+    left: 300px;
+    color: #000000;
+    font-size: 18px;
+  }
+
+  /* Registration Form */
+
+  .Register-form {
+    width: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 50px;
+  }
+
+  .Register-form:hover {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+
+  .Register-form h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .Register-form .input-box {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    margin: 30px 0;
+  }
+
+  .input-box input::placeholder {
+    color: #000000;
+  }
+
+  .input-box i {
+    position: absolute;
+    top: 40%;
+    right: 18px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  .Register-form input[type="email"],
+  .Register-form input[type="text"],
+  .Register-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #cfd5e0;
+    font-weight: bolder;
+  }
+
+  .Register-form input[type="email"]:hover,
+  .Register-form input[type="text"],
+  .Register-form input[type="password"]:hover {
+    box-shadow: 0 0 10px 0 #272222;
+  }
+
+  .Register-form .btn {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .Register-form .btn:hover {
+    background-color: #03244e;
+    color: #fff;
+  }
+
+  .Register-form .login-link {
+    margin-top: 5%;
+    font-size: 17.5px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+  }
+
+  .Register-form .input-box p {
+    text-align: center;
+    margin-top: 5px;
+    color: #eceff1;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .login-link p a {
+    color: #c7cbd1;
+    text-decoration: none;
+  }
+
+  .login-link p a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #d0dfed;
+  }
+
+  /* Forget-Password Form */
+
+  .Forget-password {
+    width: 420px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    background-color: #f1f4f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .Forget-password:hover {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+
+  .Forget-password h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #3b5998;
+  }
+
+  .Forget-password input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #cfd5e0;
+    font-weight: bolder;
+  }
+
+  .Forget-password input[type="email"]:hover {
+    box-shadow: 0 0 10px 0 #272222;
+  }
+
+  .Forget-password button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid #071534;
+    background-color: #3b5998;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .Forget-password button[type="submit"]:hover {
+    background-color: #071b52;
+    box-shadow: 0 0 10px 0 #272222;
+    color: #ffffff;
+  }
+
+  .Forget-password p {
+    text-align: center;
+    margin-top: 15px;
+    color: #000000;
+    font-size: 14px;
+    padding: auto;
+  }
+
+  .Forget-password .input-box i {
+    position: relative;
+    left: 300px;
+    top: -45px;
+    color: #000000;
+    font-size: 18px;
+  }
+
+  /* Reset Password Form */
+
+  .Reset-form {
+    width: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 50px;
+  }
+
+  .Reset-form:hover {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+
+  .Reset-form h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .Reset-form .input-box {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    margin: 30px 0;
+  }
+
+  .input-box input::placeholder {
+    color: #000000;
+  }
+
+  .input-box i {
+    position: absolute;
+    top: 40%;
+    right: 18px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  .Reset-form input[type="email"],
+  .Reset-form input[type="text"],
+  .Reset-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #cfd5e0;
+    font-weight: bolder;
+  }
+
+  .Reset-form input[type="email"]:hover,
+  .Reset-form input[type="text"]:hover,
+  .Reset-form input[type="password"]:hover {
+    box-shadow: 0 0 10px 0 #272222;
+  }
+
+
+  .Reset-form .btn {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .Reset-form .btn:hover {
+    background-color: #03244e;
+    color: #fff;
+  }
+
+  .Reset-form .login-link {
+    margin-top: 5%;
+    font-size: 17.5px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+  }
+
+  .Reset-form .input-box p {
+    text-align: center;
+    margin-top: 5px;
+    color: #eceff1;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .Reset-form .input-box img {
+    position: relative;
+    top: -60px;
+    left: 298px;
+    width: 8%;
+    height: auto;
+  }
+
+  /* Change Password */
+
+  .Change-Password {
+    width: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 50px;
+  }
+
+  .Change-Password:hover {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+
+  .Change-Password h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .Change-Password .input-box {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    margin: 30px 0;
+  }
+
+  .input-box input::placeholder {
+    color: #000000;
+  }
+
+  .input-box i {
+    position: absolute;
+    top: 40%;
+    right: 18px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .Change-Password input[type="text"],
+  .Change-Password input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #cfd5e0;
+    font-weight: bolder;
+  }
+
+  .Change-Password input[type="text"]:hover,
+  .Change-Password input[type="password"]:hover {
+    box-shadow: 0 0 10px 0 #272222;
+  }
+
+  .Change-Password .btn {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .Change-Password .btn:hover {
+    background-color: #03244e;
+    color: #fff;
+  }
+
+  .Change-Password .login-link {
+    margin-top: 5%;
+    font-size: 17.5px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+  }
+
+  .Change-Password .input-box p {
+    text-align: center;
+    margin-top: 5px;
+    color: #eceff1;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  /* Search Tab */
+  .search-tab input[type="text"] {}
+
+  .btn {
+    cursor: pointer;
+  }
+
+  .search-tab .btn {
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 5px;
+    transition: all .3s;
+  }
+
+  .search-tab .btn:hover {
+    background-color: #1b75ea;
+    color: #fff;
+    transform: scale(1.1);
+    border-radius: 50px;
+  }
+
+  /* Add Task  */
+
+  .addTask-form {
+    width: 600px;
+    height: 100vh; 
+    margin: 10px auto;
+    padding: 15px 25px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    background-color: #f1f4f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .addTask-form:hover {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+
+  .addTask-form h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 2px;
+    color: #3b5998;
+  }
+
+  .addTask-form label {
+    font-weight: bold;
+    color: #3b5998;
+  }
+
+  .addTask-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #cfd5e0;
+    font-weight: bolder;
+  }
+
+  .addTask-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #cfd5e0;
+    font-weight: bolder;
+
+  }
+
+  .addTask-form input[type="text"]:hover,
+  .addTask-form input[type="date"]:hover {
+    box-shadow: 0 0 10px 0 #272222;
+  }
+
+  .addTask-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid #071534;
+    background-color: #3b5998;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .addTask-form button[type="submit"]:hover {
+    background-color: #071b52;
+    box-shadow: 0 0 10px 0 #272222;
+  }
+
+  .addTask-form p {
+    text-align: center;
+    margin-top: 3px;
+    color: #000000;
+    font-size: 14px;
+  }
+
+  /* Task List */
+  .Task-List {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Task-Item {
+    display: inline-block;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: #e3eaf6;
+  }
+
+  .Task-Item:hover {
+    box-shadow: 0 0 10px 0 #1c1b1b;
+    background-color: #172840;
+    color: #fdfefe;
+  }
+
+  .Task-Item h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    transition: all 0.3s;
+  }
+
+  .Task-Item h4:hover {
+    transform: scale(0.99);
+    color: #fdfefe;
+
+  }
+
+  .Task-Item Button {
+    display: inline-block;
+    float: right;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    margin: 5px;
+    transition: all .3s;
+  }
+
+  .Task-Item Button:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+  }
+
+  /* Task Update */
+  .update-form {
+    width: 600px;
+    height: 100vh;
+    margin: 10px auto;
+    padding: 15px 25px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    background-color: #f1f4f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .update-form:hover {
+    box-shadow: 0 0 10px 0 #ffffff;
+  }
+
+  .update-form h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 2px;
+    color: #3b5998;
+  }
+
+  .update-form label {
+    font-weight: bold;
+    color: #3b5998;
+  }
+
+  .update-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #cfd5e0;
+    font-weight: bolder;
+  }
+
+  .update-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #3b5998;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #cfd5e0;
+    font-weight: bolder;
+
+  }
+
+  .update-form input[type="text"]:hover,
+  .update-form input[type="date"]:hover {
+    box-shadow: 0 0 10px 0 #272222;
+  }
+
+  .update-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid #071534;
+    background-color: #3b5998;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .update-form button[type="submit"]:hover {
+    background-color: #071b52;
+    box-shadow: 0 0 10px 0 #272222;
+  }
+
+  .update-form p {
+    text-align: center;
+    margin-top: 3px;
+    color: #000000;
+    font-size: 14px;
+  }
+
+  /* Table Styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0px;
+    margin-top: 20px;
+  }
+
+  .table:hover {
+    box-shadow: 0 0 5px 0 #000000;
+  }
+
+  .table th,
+  .table td {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid #2d4158;
+  }
+
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .table .error {
+    color: red;
+    font-weight: bold;
+  }
+
+  /* Task Details */
+  .Task-Details h4 {
+    display: flex;
+    justify-content: center;
+    color: #000000ed;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Add Task Comment */
+  .Comment-form input[type="text"] {
+    position: fixed;
+    top: 75%;
+    left: 50.2%;
+    width: 30%;
+  }
+
+  .Comment {
+    color: #000000;
+    font-weight: bolder;
+    padding-top: 64px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+
+  .btn {
+    cursor: pointer;
+  }
+
+  .Comment-form .btn {
+    width: 10%;
+    height: 33px;
+    position: fixed;
+    bottom: 20%;
+    right: 9%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .Comment-form .btn:hover {
+    background-color: #1b75ea;
+    color: #ffffff;
+    transform: scale(1.1);
+    border-radius: 5px;
+  }
+
+  .Comment-Container {
+    padding-top: 64px;
+  }
+
+  /* AssignTO */
+  .AssignTo input[type="email"] {
+    position: fixed;
+    top: 28%;
+    left: 50.1%;
+    /* width: 30%; */
+  }
+
+  .AssignTo .btn {
+    width: 10%;
+    height: 33px;
+    position: fixed;
+    top: 28%;
+    right: 9%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .AssignTo .btn:hover {
+    background-color: #1b75ea;
+    color: #ffffff;
+    transform: scale(1.1);
+    border-radius: 5px;
+  }
